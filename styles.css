@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: large;
+    background-color: dimgray;
+    
+
+    
+}
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(58, 78, 24);
+    
+}
+.Email {
+    display: block;
+}
+#password {
+    display: block;
+}
+.register {
+    display: flex;
+    border: 1px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.sign {
+    background-color: rgb(81, 167, 81);
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log {
+    background-color: rgb(145, 135, 135);
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    text-align: center;
+    font-weight: bold;
+    border: 1px;
+    padding: 0 20px;
+}
+
+::placeholder {
+    color: gray;
+    font-style: normal;
+    font-size: 14px;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 94%;
+    
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.contain {
+    background-color: rgb(81, 167, 81);
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    border: 1px;  
+    padding: 10px;
+    text-align: center;     
+}
+.sub-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(81, 167, 81);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+
+
+
